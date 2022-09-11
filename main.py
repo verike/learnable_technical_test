@@ -9,10 +9,10 @@ def nth_most_rare(list_arr, n):
 
     for (k,v) in list_arr:
         if n == v:
-            print(f'This number : {k} is the number {v} rarest in the item list')
-        print(k,v)
+            print(f' {k} is the number {v} rarest in the item list')
+        
 
     # complist = sorted([(k, v) for k,v in list_arr],reverse=True)[n-1][1]
     # return complist
 
-nth_most_rare(int_list,2)
+nth_most_rare(int_list,3)
