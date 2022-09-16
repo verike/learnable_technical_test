@@ -30,4 +30,4 @@ nth_most_rare_signature(int_list,2)
 # reveals the properties of the function wrapped inside the signature function 
 print(f'Signature of function: {sign_of_Func}')
 print(f'Signature of parameter "list" passed into the function: {para_1_sign}')
-print(f'Signature of parameter "n" passed into the function: {para_2_sign}')
+print(f'Signature of parameter "list" passed into the function: {para_2_sign}')
